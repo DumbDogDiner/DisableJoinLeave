@@ -1,0 +1,7 @@
+name: DisableJoinLeave
+version: 0.0.1-SNAPSHOT
+description: Disables join and leave messages
+api-version: "1.15"
+main: com.dumbdogdiner.disablejoinleave.DisableJoinLeave
+authors: [kelwing]
+website: dumbdogdiner.com

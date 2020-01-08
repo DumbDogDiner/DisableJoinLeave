@@ -12,4 +12,4 @@ jobs:
         with:
           java-version: 11.0.5
       - name: Build
-        run: mvn --file pom.xml pacakge
+        run: mvn package

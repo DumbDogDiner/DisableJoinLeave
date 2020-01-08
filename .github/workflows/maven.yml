@@ -7,9 +7,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Set up JDK
-        uses: actions/setup-java@v1
-        with:
-          java-version: 11.0.5
-      - name: Build
-        run: mvn pacakge
+      - name: GitHub Action for Maven
+        uses: LucaFeger/action-maven-cli@1.1.0
+        args: "clean package"

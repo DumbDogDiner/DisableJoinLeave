@@ -12,4 +12,4 @@ jobs:
         with:
           java-version: 11.0.5
       - name: Build
-        run: mvn -B pacakge
+        run: mvn -B pacakge --file pom.xml
